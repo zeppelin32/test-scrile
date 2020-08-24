@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="sass/style.css">
+  <title>Test Scrile</title>
+</head>
+<body>
+
+<div class="container">
+  <div class="indicator">
+    <div class="indicator__header">Target Indicator Demo</div>
+    <div class="indicator__body">
+      <div class="indicator__content">
+        <div class="indicator__rangeslider rangeslider">
+          <div class="rangeslider__text">Reached:</div>
+          <div class="rangeslider__inner">
+            <div class="rangeslider__slider-container">
+              <div id="slider"></div>
+            </div>
+
+            <div class="rangeslider__target">
+              <div class="rangeslider__target-top">Target</div>
+              <div class="rangeslider__target-divider"></div>
+              <div class="rangeslider__target-bottom">$15</div>
+            </div>
+          </div>
+        </div>
+        <div class="indicator__info">
+          <span class="indicator__info-icon"></span>
+          <div class="indicator__info-text" id="indicatorInfoText">You need $1 more to reach your target.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+<script src="js/slider/bootstrap-slider.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
